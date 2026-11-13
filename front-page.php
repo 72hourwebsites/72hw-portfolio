@@ -26,7 +26,7 @@ get_header();
 			</div>
 			<?php
 			if ( shortcode_exists( 'hw72_showcase' ) ) {
-				echo do_shortcode( '[hw72_showcase limit="6"]' );
+				echo do_shortcode( '[hw72_showcase limit="12"]' );
 			} elseif ( have_posts() ) {
 				?>
 				<div class="posts-grid">
